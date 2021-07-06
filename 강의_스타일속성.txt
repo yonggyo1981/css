@@ -1,0 +1,57 @@
+스타일 속성 
+
+선택자 {
+	background-color : red; width: 100%;
+	color: blue; 
+}
+
+속성명 : 속성값;
+
+1. 글꼴 속성
+font-size  - 글자의 사이즈
+			   고정 사이즈
+              - px (고정 화소 기준 사이즈)
+			  - pt (고정 사이즈)
+			  
+			  상대 사이즈
+			  - em - 부모 기준 요소를 기준 사이즈
+			           부모 13px, 
+					   자식 1em  -> 13px 
+					          1.2em -> 15.6px  
+			  - rem - 최상의 태그 기준 사이즈
+			          html 13px 
+					  1rem -> 13px
+					  1.2rem -> 15.6px
+
+color - 글자 색
+		  1) 색상명 (red, orange, pink .....)
+		  2) RGB(0~255, 0~255, 0~255)
+		      rgb(255, 0, 0) - red
+			  rgb(0, 255, 0) - green
+			  
+			  255 * 255 * 255 
+		   3) hex 코드(16진수) 
+		      rgb 숫자 -> 16진수로 변경 
+			  rgb(255,  0,  0) 
+			       ff     00   00
+				   
+			 #ff0000
+			 
+text-align  - 텍스트 정렬
+				left - 왼쪽(기본값으로 가지는 태그가 많다)
+				right - 오른쪽 정렬
+				center - 중앙 정렬
+				justify - 양쪽 정렬(자간 맞춤)
+				
+line-height - 행간 (기본 값 1.2)		
+letter-spacing - 글자 자간 (글자 사이사이)
+word-spacing - 단어별 자간
+
+font-weight - 글자의 두께
+                - 문자 (normal - 기본값, bold - 두껍게) 
+				- 숫자 (100~900) - 지원되는 폰트에 따라 다르다
+
+
+2. 공간
+    
+3. 그래픽
