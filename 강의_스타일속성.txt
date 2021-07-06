@@ -119,10 +119,19 @@ font-family - 글꼴
 							- 30px (아래쪽)
 							- 40px (왼쪽)
 			
+			- padding-top
+			- padding-bottom
+			- padding-left 
+			- padding-right
 	2) 외부 여백
 		margin
 		    - padding과 적용 순서 동일 
-
+				
+			- margin-top
+			- margin-bottom
+			- margin-left
+			- margin-right
+			
 5. 경계
 	border - 경계
 	       
@@ -149,14 +158,39 @@ font-family - 글꼴
 				- 자기자신이 위치한 위치기준으로 상대적으로 이동
 				
 			 - absolute 
-			    - 기준 - 상대위치 지정한 부모 또는 조상
+			    - 기준 - 상대위치  부모 또는 조상
 				         - 부모, 조상 중 누구라도 상대 위치 속성을 가진 다면
 						 (relative, absolute, fixed)
+						 - 상대 속을 가지고 있는 부모가 없다면 
+						   전체 문서 기준(html)
+						 
 						 
 				- 기준 내에서 상대적으로 이동 		 
 						 
 			 - fixed
 				 - 기준 - 물리적으로 보이는 화면 기준으로 상대적으로 이동 
 				 
-			상대위치는 상대적으로 이동하기 위한 것이므로 
-			
+			상대위치는 상대적으로 이동하기 위한 것이므로 하기 추가 속성 존재
+				top - 위-> 아래
+				right - 오른쪽 -> 왼쪽 
+				bottom - 아래 -> 위로
+				left - 왼쪽 -> 오른쪽
+				z-index - 각 요소의 층위 
+							숫자가 클수록 앞쪽에 있고 
+							숫자가 작아질 수록 뒤쪽에 있다
+							예) z-index: 10,  z-index: 9; 
+							     10이 9보다는 앞에 있다
+
+7. 배치
+float 
+	left - 왼쪽 -> 오른쪽 
+	right - 오른쪽 -> 왼쪽
+	
+	- float 속성이 없더라도 다음 요소에 영향을 미친다
+	- clear 속성을 반드시 적용해야 한다
+	
+	clear 
+		- left
+		- right
+		- both
+	
