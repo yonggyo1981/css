@@ -1,0 +1,52 @@
+text-decoration 
+		- none - 기본값
+		- underline - 밑줄
+		- italic - 이탤릭체(기울임체)
+		
+
+list-style 
+	ul태그 li의 스타일
+		dist, circle, square
+		
+		none -> 스타일 없음
+		
+cursor 
+	- 마우스를 올렸을때 화살표 모양
+	pointer -> 손가락 모양
+	hand ...
+	
+border: 1px solid red; // 모든 방향
+	- border-top  - 상단 경계선
+	- border-bottom  - 하단 곙계선
+	- border-left - 왼쪽 경계선
+	- border-right  - 오른쪽 경계선
+
+
+
+height - 높이 
+	min-height - 최소 높이 
+	max-height - 최대 높이 
+
+width - 너비
+	min-width - 최소 너비
+	max-width - 최대 너비
+	
+	
+<aside class='on' id='menu'></aside>
+aside.on {
+	
+}
+
+aside#menu {
+	
+}
+
+
+margin 
+	- auto (양 방향 균등 여백)
+	- margin: 0 auto; 
+		(좌우로 균등 여백 - 가운데 정렬)
+		
+text-transform 
+		- uppercase (소문자 -> 대문자로)
+		- lowercase (대문자 -> 소문자로)
