@@ -19,6 +19,12 @@ a {
 	text-decoration: none;
 }
 
+ul {
+	list-style: none;
+	padding: 0; 
+	margin: 0;
+}
+
 .layout_width {
 	width: 1200px;
 	margin: 0 auto;
@@ -71,6 +77,7 @@ a {
 
 .logo_search .search .form_wrap {
 	width: 200px;
+	height: 38px;
 	border-bottom: 1px solid #222222;
 	float: right;
 }
@@ -87,8 +94,14 @@ a {
 	top: 5px;
 }
 
+.logo_search .icon_menu img { 
+	vertical-align: top;
+}
+
 .logo_search .icon_menu a:nth-child(1) img {
 	height: 62px;
+	position: relative;
+	top: 3px;
 }
 
 .logo_search .icon_menu a:nth-child(2) img,
@@ -98,4 +111,42 @@ a {
 
 .logo_search .icon_menu {
 	padding: 26px 0;
+}
+
+/** 메인 메뉴 영역 */
+nav {
+	border-bottom: 1px solid #000000;
+}
+
+nav ul li { 
+	float: left;
+	width: calc((100% - 50px) / 10);
+	text-align: center;
+}
+
+nav ul:after {
+	clear: left;
+	content: '';
+	display: block;
+}
+
+nav li a {
+	display: block;
+	height: 45px;
+	font-size: 16px;
+	letter-spacing: -0.32px;
+	line-height: 45px;
+}
+
+nav li i { 
+	font-size: 1.8rem;
+	vertical-align: middle;
+	position: relative;
+	top: 12px;
+	cursor: pointer;
+}
+
+nav li.more_menu {
+	width: 50px;
+	text-align: center;
 }
