@@ -150,3 +150,19 @@ nav li.more_menu {
 	width: 50px;
 	text-align: center;
 }
+
+/** 메인 배너 영역 */
+.main_banner .swiper-slide {
+	height: 600px;
+}
+.main_banner .swiper-wrapper .swiper-slide:nth-child(3n+1) {
+	background:url("../img/banner1.jpg") no-repeat center center;
+} 
+
+.main_banner .swiper-wrapper .swiper-slide:nth-child(3n+2) {
+	background:url("../img/banner2.jpg") no-repeat center center;
+}
+
+.main_banner .swiper-wrapper .swiper-slide:nth-child(3n) {
+	background:url("../img/banner3.jpg") no-repeat center center;
+}
