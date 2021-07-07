@@ -70,6 +70,7 @@ aside {
 	top: 0;
 	left: -200px;
 	border-right: 1px solid #212121;
+	transition: all 1s;
 }
 
 aside.on { /** 사이드 메뉴 활성화 */
