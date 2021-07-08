@@ -303,6 +303,7 @@ main article:hover .spread_bar {
 .goods_list .goods .image {
 	display: block;
 	margin-bottom: 10px;
+	width: 100%;
 }
 
 .goods_list .goods .goods_nm {
@@ -324,4 +325,36 @@ main article:hover .spread_bar {
 	letter-spacing: -0.5px;
 	word-break: break-all;
 	margin-bottom: 8px;
+}
+
+.goods_list .goods .consumer {
+	color: #acacac;
+	font-size: 14px;
+	letter-spacing: -1.5px;
+	font-family: Verdana;
+	padding-right: 15px;
+}
+
+.goods_list .goods .price {
+	font-size: 18px;
+	letter-spacing: -0.8px; 
+	font-weight: 600;
+	font-family: Verdana;
+}
+
+.goods_list ul .goods {
+	float: left;
+	width: calc(100% / 4 - 30px);
+	margin-left: 40px;
+	margin-bottom: 40px;
+}
+
+.goods_list ul:after {
+	clear: left;
+	content: '';
+	display: block;
+}
+
+.goods_list ul .goods:nth-child(4n+1) {
+	margin-left: 0;
 }
