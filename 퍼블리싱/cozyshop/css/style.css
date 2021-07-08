@@ -41,9 +41,27 @@ ul {
 	font-size: 12px; 
 	letter-spacing: -0.24px;
 	color: #333333;
-	padding: 0 10px;
+	padding: 0 10px 0 11px;
 	line-height: 30px;
+	position: relative;
+	display: inline-block;
 }
+
+.site_top a:before {
+	content: '';
+	display: block;
+	width: 1px;
+	height: 9px;
+	background-color: #333333;
+	position: absolute;
+	top: 11px;
+	left: 0;
+}
+
+.site_top .first:before {
+	display: none;
+}
+
 
 /** 사이트 로고, 검색, 아이콘 메뉴 */
 .logo_search .box {
