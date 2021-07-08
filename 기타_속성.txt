@@ -97,3 +97,12 @@ box-shadow
 	
 :last-child 
 	- 자식 중에서 마지막 번째
+	
+	
+word-break :
+		- break-all
+			텍스트 자동 줄 개행
+			
+			
+padding : 상단  좌우 하단
+	padding: 5px 0 10px;

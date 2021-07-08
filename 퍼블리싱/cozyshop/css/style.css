@@ -153,7 +153,40 @@ nav li.more_menu {
 
 /** 메인 영역 */
 main {
-	min-height: 900px;
+	min-height: 2000px;
+}
+
+main .mtit {
+	color: #222222;
+	text-transform: uppercase;
+	font-weight: 300;
+	text-align: center;
+	font-size: 25px;
+}
+
+main .mtit > span {
+	font-weight: 700;
+}
+
+main .stit {
+	color: #808285;
+	text-transform: uppercase;
+	font-weight: 300;
+	letter-spacing: -0.48px;
+	text-align: center;
+	font-size: 16px;
+}
+
+main article .spread_bar {
+	width: 40px;
+	height: 1px;
+	background-color: #030303;
+	margin: 20px auto 50px auto;
+	transition: width 1s;
+}
+
+main article:hover .spread_bar {
+	width: 120px;
 }
 
 
@@ -263,4 +296,32 @@ main {
 .main_sbanner .banner img {
 	display: block;
 	width: 100%;
+}
+
+
+/** 상품 진열 영역 */
+.goods_list .goods .image {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.goods_list .goods .goods_nm {
+	color: #111111;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: -0.5px;
+	padding: 5px 0 10px;
+	overflow: hidden;
+	word-break: break-all;
+	line-height: 20px;
+	border-bottom: 1px solid #dbdbdb;
+	margin-bottom: 10px;
+}
+
+.goods_list .goods .short_desc {
+	color: #777777;
+	font-size: 13px;
+	letter-spacing: -0.5px;
+	word-break: break-all;
+	margin-bottom: 8px;
 }
