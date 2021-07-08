@@ -459,6 +459,15 @@ main article:hover .spread_bar {
 	top: 247px;
 	z-index: 10;
 	color: #d5d5d5;
+	cursor: pointer;
+}
+
+.tv_movie .navi.prev {
+	left: calc(50% - 600px);
+}
+
+.tv_movie .navi.next {
+	right: calc(50% - 600px);
 }
 
 
