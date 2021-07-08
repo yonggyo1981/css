@@ -384,6 +384,7 @@ main article:hover .spread_bar {
 /** 상품 소개 배너 */
 .main_intro_banner {
 	background:url("../img/intro_banner.jpg") no-repeat right center;
+	margin-bottom: 103px;
 }
 
 .main_intro_banner .box {
@@ -434,4 +435,34 @@ main article:hover .spread_bar {
 .main_intro_banner .view_more:hover {
 	background-color: #333333;
 	color: #ffffff;
+}
+
+/** TV & MOVIE */
+.tv_movie .swiper-container {
+	height: 525px;
+}
+
+.tv_movie .swiper-slide {
+	width: 380px !important;
+	height: 525px;
+	overflow: hidden;
+}
+
+.tv_movie .swiper-slide img {
+	width: 100%;
+	display: block;
+}
+
+.tv_movie .navi {
+	position: absolute; 
+	font-size: 31px;
+	top: 247px;
+	z-index: 10;
+	color: #d5d5d5;
+}
+
+
+/** footer 영역 */
+footer { 
+	margin-top: 103px;
 }
