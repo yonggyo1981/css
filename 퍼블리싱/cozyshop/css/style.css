@@ -151,10 +151,21 @@ nav li.more_menu {
 	text-align: center;
 }
 
+/** 메인 영역 */
+main {
+	min-height: 900px;
+}
+
+
 /** 메인 배너 영역 */
+.main_banner {
+	margin-bottom: 103px;
+}
+
 .main_banner .swiper-slide {
 	height: 600px;
 }
+
 .main_banner .swiper-wrapper .swiper-slide:nth-child(3n+1) {
 	background:url("../img/banner1.jpg") no-repeat center center;
 } 
@@ -197,4 +208,59 @@ nav li.more_menu {
 
 .main_banner .navi.next {
 	right: 10px;
+}
+
+/** Welcome to Cozyshop */
+.main_sbanner {
+	margin-bottom: 103px;
+}
+
+.main_sbanner .tit {
+	color: #313131;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 38px;
+}
+
+.main_sbanner .tit > span {
+	font-weight: 700;
+}
+
+.main_sbanner .banner_grp .banner {
+	float: left;
+	width: calc(100% / 3 - 10px);
+	margin-left: 15px;
+}
+
+.main_sbanner .banner_grp .banner:first-child {
+	margin-left: 0;
+}
+
+.main_sbanner .banner_grp:after {
+	clear: left;
+	content: '';
+	display: block;
+}
+
+.main_sbanner .text1 {
+	color: #313131;
+	font-size: 18px;
+	letter-spacing: -1.08px;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.main_sbanner .text2 {
+	font-weight: 300;
+	color: #313131;
+	font-size: 14px;
+	letter-spacing: -0.84px;
+	text-align: center;
+}
+
+.main_sbanner .banner img {
+	display: block;
+	width: 100%;
 }
