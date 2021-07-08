@@ -106,3 +106,15 @@ word-break :
 			
 padding : 상단  좌우 하단
 	padding: 5px 0 10px;
+	
+
+
+nth-child(4n+1)
+
+
+4n+1
+	1, 5, 9 .... 
+	
+background-size 
+				- cover : 배경 이미지 영역 자동 맞춤
+					

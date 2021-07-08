@@ -318,6 +318,10 @@ main article:hover .spread_bar {
 
 
 /** 상품 진열 영역 */
+.goods_list {
+	margin-bottom: 103px;
+}
+
 .goods_list .goods .image {
 	display: block;
 	margin-bottom: 10px;
@@ -375,4 +379,59 @@ main article:hover .spread_bar {
 
 .goods_list ul .goods:nth-child(4n+1) {
 	margin-left: 0;
+}
+
+/** 상품 소개 배너 */
+.main_intro_banner {
+	background:url("../img/intro_banner.jpg") no-repeat right center;
+}
+
+.main_intro_banner .box {
+	float: left;
+	height: 450px;
+}
+
+.main_intro_banner .goods_desc {
+	width: 500px;
+	background-color: #ffffff;
+}
+
+.main_intro_banner .banner {
+	width: calc(100% - 500px);
+}
+
+.main_intro_banner > .inner:after {
+	clear: left;
+	content: '';
+	display: block;
+}
+
+.main_intro_banner .text1 {
+	font-size: 36px;
+	font-weight: 700;
+	letter-spacing: -1.44px;
+	margin-top: 15px;
+}
+
+.main_intro_banner .text2 {
+	margin: 45px 0 50px;
+	font-size: 18px;
+	font-weight: 300;
+	letter-spacing: -0.36px;
+}
+
+.main_intro_banner .view_more {
+	width: 100px;
+	height: 37px;
+	display: block;
+	border: 1px solid #333333;
+	color: #333333;
+	font-size: 14px;
+	text-align: center;
+	line-height: 35px;
+}
+
+.main_intro_banner .view_more:hover {
+	background-color: #333333;
+	color: #ffffff;
 }
