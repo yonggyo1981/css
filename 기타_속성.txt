@@ -142,3 +142,7 @@ white-space
 		- wrap  -> 줄 개행
 + overflow: hidden -> 넘치는 부분 가리기 
 	
+	
+:first-of-type 
+:last-of-type
+:nth-of-type
