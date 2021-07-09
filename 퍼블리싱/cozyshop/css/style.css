@@ -585,3 +585,67 @@ footer .site_guide:after {
 	content: '';
 	display: block;
 }
+
+footer .notice_box .post_tit {
+	text-align: right;
+	font-size: 21px;
+	font-weight: bold;
+	padding: 0 6px 5px 0;
+	border-bottom: 1px dashed #c4c4c4;
+	margin-bottom: 20px;
+	letter-spacing: -1px;
+	position: relative;
+}
+
+footer .notice_box .more {
+	position: absolute;
+	left: 6px;
+	top: 5px;
+	font-size: 11px;
+	font-weight: normal;
+	display: block;
+	width: 46px;
+	height: 20px;
+	border: 1px solid #58595b;
+	color: #0c0c0c;
+	text-align: center;
+	line-height: 18px;
+}
+
+footer .notice_box .more:hover {
+	border-color: #0c0c0c;
+	background-color: #0c0c0c;
+	color: #ffffff;
+}
+
+footer .notice_box ul a {
+	display: block;
+	color: #8e9499;
+	font-size: 12px;
+	text-indent: 10px;
+	line-height: 1.8;
+	white-space: nowrap;
+	width: 298px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+footer .notice_box ul a:hover {
+	text-decoration: underline;
+}
+
+/** 하단 사이트 맵 */
+.site_guide .site_map .box {
+	float: left;
+	width: calc((100% - 330px) / 3);
+}
+
+.site_guide .site_map .box4 {
+	width: 330px;
+}
+
+.site_guide .site_map:after {
+	clear: left;
+	content: '';
+	display: block;
+}

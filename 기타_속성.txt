@@ -120,3 +120,25 @@ background-size
 					
 
 margin: 45px 0 50px;
+
+text-decoration: 
+		- none  - 효과 없음
+		- underline - 밑줄
+		- italic 
+		
+text-indent 
+	- 들여쓰기 
+	
+	예) text-indent: 10px; 
+	-> 좌에서 우로 10px 만큼 들여쓰기
+	
+text-overflow: 
+	- ellipsis   (생략 표시 ... 을 추가)
+	
++ 생략되는 글 요소가 너비를 가져야 하고
++ 글 개행 속성 X 
+white-space  
+		- nowrap  -> 줄 개행 X
+		- wrap  -> 줄 개행
++ overflow: hidden -> 넘치는 부분 가리기 
+	
