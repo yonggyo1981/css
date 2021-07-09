@@ -569,7 +569,7 @@ footer .site_guide {
 
 footer .site_guide .site_map {
 	float: left;
-	width: calc(100% - 330px);
+	width: calc(100% - 339px);
 }
 
 footer .site_guide .notice_box {
@@ -635,9 +635,13 @@ footer .notice_box ul a:hover {
 }
 
 /** 하단 사이트 맵 */
+.site_guide .site_map {
+	margin-left: 9px;
+}
+
 .site_guide .site_map .box {
 	float: left;
-	width: calc((100% - 330px) / 3);
+	width: calc((100% - 380px) / 3);
 }
 
 .site_guide .site_map .box4 {
@@ -648,4 +652,58 @@ footer .notice_box ul a:hover {
 	clear: left;
 	content: '';
 	display: block;
+}
+
+.site_guide .site_map .tit {
+	font-size: 13px;
+	font-weight: bold;
+	color: #404040;
+	margin-bottom: 23px;
+}
+
+.site_guide .site_map ul a {
+	font-size: 12px;
+	color: #969696;
+}
+
+.site_guide .site_map dl {
+	margin: 0;
+	margin-bottom: 5px;
+	padding: 0;
+	display: table;
+}
+
+.site_guide .site_map dt,
+.site_guide .site_map dd {
+	display: table-cell;
+	font-size: 12px;
+	color: #333333;
+}
+
+/** 하단 회사 정보 */
+footer .company_info {
+	border-top: 1px solid #d1d3d4;
+	padding: 22px 9px;
+	font-size: 12px;
+	color: #969696;
+	line-height: 1.8;
+}
+
+footer .company_info strong,
+footer .company_info .copyright {
+	color: #969696;
+}
+
+footer .company_info .copyright {
+	text-align: right;
+}
+
+/** 카카오 상담하기 버튼 */
+footer .kakao_btn {
+	width: 60px;
+	position: fixed;
+	right: 100px;
+	bottom: 100px;
+	z-index: 5;
+	cursor: pointer;
 }
