@@ -118,3 +118,5 @@ nth-child(4n+1)
 background-size 
 				- cover : 배경 이미지 영역 자동 맞춤
 					
+
+margin: 45px 0 50px;
